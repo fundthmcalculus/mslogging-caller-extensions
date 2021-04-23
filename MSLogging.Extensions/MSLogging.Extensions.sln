@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSLogging.Extensions.Caller", "MSLogging.Extensions.Caller\MSLogging.Extensions.Caller.csproj", "{FACEBD6A-2400-413A-927B-07E217605EA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSLogging.Extensions.Tests", "..\MSLogging.Extensions.Tests\MSLogging.Extensions.Tests\MSLogging.Extensions.Tests.csproj", "{87E96D49-5F2F-428F-ADE3-4D762428D0E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{FACEBD6A-2400-413A-927B-07E217605EA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FACEBD6A-2400-413A-927B-07E217605EA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FACEBD6A-2400-413A-927B-07E217605EA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87E96D49-5F2F-428F-ADE3-4D762428D0E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E96D49-5F2F-428F-ADE3-4D762428D0E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E96D49-5F2F-428F-ADE3-4D762428D0E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E96D49-5F2F-428F-ADE3-4D762428D0E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
