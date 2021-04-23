@@ -15,11 +15,11 @@ jobs:
       with:
         dotnet-version: 3.1.101
     - name: Install dependencies
-      run: dotnet restore
+      run: dotnet restore MSLogging.Extensions/MSLogging.Extensions.Caller
     - name: Build
       run: dotnet build MSLogging.Extensions/MSLogging.Extensions.Caller --configuration Release --no-restore
     - name: Publish Nuget
       uses: brandedoutcast/publish-nuget@v2.5.2
       with:
-          PROJECT_FILE_PATH: MSLogging.Extensions/MSLogging.Extensions.Caller/MSLogging.Extensions.Caller.csproj
+          PROJECT_FILE_PATH: MSLogging.Extensions/MSLogging.Extensions.Caller
           NUGET_KEY: ${{secrets.NUGET_API_KEY}}
