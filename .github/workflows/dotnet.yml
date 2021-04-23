@@ -23,4 +23,4 @@ jobs:
     - name: Build
       run: dotnet build MSLogging.Extensions/MSLogging.Extensions.Caller --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test MSLogging.Extensions/MSLogging.Extensions.Tests --no-build --verbosity normal
